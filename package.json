@@ -1,0 +1,14 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "prajjwal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+.header{
+    background-color: $lite-blue-bg;
+     border-bottom: 1px solid rgba($dark-grey, .4);
+     padding: 4rem 2rem;
+}
+.header-text-box{
+    width: auto;
+    text-align: center;
+   
+    .img-logo{
+        width: 9em;
+        height: 9em;
+        margin-top: 2rem;
+        border-radius: 50%;
+        &:hover{
+            offset :60%;
+            border: 2px solid rgba($dark-purple,1) ;
+        }
+    }
+    .heading-primary{
+        color: $dark-grey;
+        .heading-primary-main{
+            display: block;
+            color: $dark-grey;
+            font-size: 2.7rem;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            text-decoration: none;
+            animation-name: moveInLeft;
+            animation-duration: 0.5s;
+        }
+        .heading-primary-main:hover{
+            color: $dark-purple;
+        }   
+        .heading-primary-sub{
+            display: block;
+            font-weight: 300;
+            font-size: 1.3rem;
+            margin-bottom: 0.4rem;
+            animation-name: moveInRight;
+            animation-duration: 0.5s;
+        }
+    }
+    
+}

@@ -33,12 +33,13 @@
             color: $dark-purple;
         }   
         .heading-primary-sub{
-            display: block;
-            font-weight: 300;
+            // display: block;
+            font-weight: 400;
             font-size: 1.3rem;
             margin-bottom: 0.4rem;
             animation-name: moveInRight;
             animation-duration: 0.5s;
+            color: rgba($dark-grey,1);
         }
     }
     

@@ -22,7 +22,11 @@
         border: 1px solid $dark-purple;
         margin-right:2rem;
         margin-bottom: 3%;     
+        transition: all 0.3s;
 
+    }
+    img:hover{
+        transform: scale(1.1);
     }
     .img-box{
         margin: auto;
@@ -32,6 +36,20 @@
     }
     p{
         color: rgba($dark-grey, .6);
+        margin-bottom: .5rem;
+    }
+    .regular-btn{
+        text-decoration: none;
+        color: $dark-grey;
+        font-size: 1.2rem;
+        transition: all 0.3s;
+        display: inline-block;
+
+        &:hover{
+            color: $dark-purple;
+            transform: scale(1.09);
+        }
+
     }
     .text-box-proj{
         width: 700px;

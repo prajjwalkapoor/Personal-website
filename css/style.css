@@ -283,12 +283,25 @@ body {
       width: 300px;
       border: 1px solid #078ACC;
       margin-right: 2rem;
-      margin-bottom: 3%; }
+      margin-bottom: 3%;
+      transition: all 0.3s; }
+    .main-proj .sec-proj img:hover {
+      transform: scale(1.1); }
     .main-proj .sec-proj .img-box {
       margin: auto; }
     .main-proj .sec-proj h2 {
       color: #3A4145; }
     .main-proj .sec-proj p {
-      color: rgba(58, 65, 69, 0.6); }
+      color: rgba(58, 65, 69, 0.6);
+      margin-bottom: .5rem; }
+    .main-proj .sec-proj .regular-btn {
+      text-decoration: none;
+      color: #3A4145;
+      font-size: 1.2rem;
+      transition: all 0.3s;
+      display: inline-block; }
+      .main-proj .sec-proj .regular-btn:hover {
+        color: #078ACC;
+        transform: scale(1.09); }
     .main-proj .sec-proj .text-box-proj {
       width: 700px; }

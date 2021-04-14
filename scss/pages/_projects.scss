@@ -12,18 +12,20 @@
     }
 }
 .main-proj{
-    margin: 3%;
+    margin: 4%;
     .sec-proj{
         display: flex;
-        margin: 2rem 0;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 5rem 0;
     img{
-        width: 30%;
-        height: 28%;
+        width: 300px;
         border: 1px solid $dark-purple;
-        margin-right:3%;
+        margin-right:2rem;
         margin-bottom: 3%;     
 
+    }
+    .img-box{
+        margin: auto;
     }
     h2{
         color: $dark-grey;
@@ -32,7 +34,7 @@
         color: rgba($dark-grey, .6);
     }
     .text-box-proj{
-        // flex: 0 1 auto;
+        width: 700px;
     }
 }
 }

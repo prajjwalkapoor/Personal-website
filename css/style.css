@@ -1,3 +1,9 @@
+h2,
+h3,
+h4 {
+  color: #3A4145;
+  margin: 2rem 0; }
+
 .u-center-text {
   text-align: center; }
 
@@ -26,7 +32,7 @@ body {
   line-height: 1.7;
   color: #1f1f1f; }
 
-.about {
+.main {
   text-align: center;
   padding: 1rem 10% 1.5rem 10%;
   width: 100%; }
@@ -105,12 +111,12 @@ body {
 .icon-bar .facebook:hover span,
 .icon-bar .facebook:hover .tooltip,
 .icon-bar .facebook:hover .tooltip:before {
-  background: #3B5999; }
+  background: #3b5999; }
 
 .icon-bar .twitter:hover span,
 .icon-bar .twitter:hover .tooltip,
 .icon-bar .twitter:hover .tooltip:before {
-  background: #46C1F6; }
+  background: #46c1f6; }
 
 .icon-bar .instagram:hover span,
 .icon-bar .instagram:hover .tooltip,
@@ -121,6 +127,20 @@ body {
 .icon-bar .github:hover .tooltip,
 .icon-bar .github:hover .tooltip:before {
   background: #333; }
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 4rem 0; }
+  .skills-container .skills-item {
+    margin: 0.4rem; }
+    .skills-container .skills-item .img {
+      width: 8rem;
+      height: 8rem;
+      transition: all 0.3s; }
+      .skills-container .skills-item .img:hover {
+        transform: scale(1.2); }
 
 .header {
   background-color: #e3f3ff;

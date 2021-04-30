@@ -1,58 +1,57 @@
-.header-projects{
-    .title-container{
-        margin-top: 2.5rem;
-        h1{
-            font-size: 3.7rem;
-            color: $dark-grey;
-        }
-        h3{
-            font-weight: 300;
-            color: rgba($dark-grey, .7);
-        }
+.header-projects {
+  .title-container {
+    text-align: center;
+    margin-top: 2.5rem;
+    h1 {
+      font-size: 3.7rem;
+      color: $dark-grey;
     }
+    h3 {
+      font-weight: 300;
+      color: rgba($dark-grey, 0.7);
+    }
+  }
 }
-.main-proj{
-    margin: 4%;
-    .sec-proj{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 5rem 0;
-    img{
-        width: 300px;
-        border: 1px solid $dark-purple;
-        margin-right:2rem;
-        margin-bottom: 3%;     
-        transition: all 0.3s;
+.main-proj {
+  margin: 4%;
+  .sec-proj {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+    img {
+      width: 300px;
+      border: 1px solid $dark-purple;
+      margin-right: 2rem;
+      margin-bottom: 3%;
+      transition: all 0.3s;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+    .img-box {
+      margin: auto;
+    }
+    h2 {
+      color: $dark-grey;
+    }
+    p {
+      color: rgba($dark-grey, 0.6);
+      margin-bottom: 0.5rem;
+    }
+    .regular-btn {
+      text-decoration: none;
+      color: $dark-grey;
+      font-size: 1.2rem;
+      transition: all 0.3s;
+      display: inline-block;
 
+      &:hover {
+        color: $dark-purple;
+        transform: scale(1.09);
+      }
     }
-    img:hover{
-        transform: scale(1.1);
+    .text-box-proj {
+      width: 700px;
     }
-    .img-box{
-        margin: auto;
-    }
-    h2{
-        color: $dark-grey;
-    }
-    p{
-        color: rgba($dark-grey, .6);
-        margin-bottom: .5rem;
-    }
-    .regular-btn{
-        text-decoration: none;
-        color: $dark-grey;
-        font-size: 1.2rem;
-        transition: all 0.3s;
-        display: inline-block;
-
-        &:hover{
-            color: $dark-purple;
-            transform: scale(1.09);
-        }
-
-    }
-    .text-box-proj{
-        width: 700px;
-    }
-}
+  }
 }

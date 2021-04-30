@@ -3,7 +3,9 @@
   padding: 1rem 10% 1.5rem 10%;
   width: 100%;
 }
-
+.p {
+  padding: 0 8%;
+}
 //icon bar
 .icon-bar {
   display: inline-flex;
@@ -111,6 +113,35 @@
       transition: all 0.3s;
       &:hover {
         transform: scale(1.2);
+      }
+    }
+  }
+}
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .logo {
+    width: 40%;
+    h1 {
+      color: $dark-grey;
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      &:hover {
+        color: $dark-purple;
+      }
+    }
+  }
+  nav {
+    // width: 70%;
+    display: flex;
+    .nav-link {
+      text-decoration: none;
+      color: $dark-grey;
+      margin: 0 1rem;
+      font-size: 1.19rem;
+      &:hover {
+        color: $dark-purple;
       }
     }
   }

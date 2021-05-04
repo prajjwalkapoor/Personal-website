@@ -21,15 +21,28 @@
 
   <body>
     <header class="header">
+      <nav class="mobile-nav" id="mobile-nav">
+        <a href="/index.html" class="nav-link">Home</a
+        ><a href="/projects.html" class="nav-link">Projects</a
+        ><a href="mailto:prajjwal.kapoor.mail@gmail.com" class="nav-link"
+          >Contact</a
+        >
+      </nav>
       <div class="navigation">
         <div class="logo"><h1 class="logo-text">Prajjwal Kapoor</h1></div>
-        <nav>
+        <nav class="main-nav">
           <a href="/index.html" class="nav-link">Home</a
           ><a href="/projects.html" class="nav-link">Projects</a
           ><a href="mailto:prajjwal.kapoor.mail@gmail.com" class="nav-link"
             >Contact</a
           >
         </nav>
+        <img
+          id="hamburger"
+          class="hamburger"
+          src="/img/hamburger.svg"
+          onclick="changeHamburger()"
+        />
       </div>
       <div class="header-text-box">
         <div class="header-img-box">
@@ -109,4 +122,5 @@
       </section>
     </main>
   </body>
+  <script src="/JS/nav.js"></script>
 </html>

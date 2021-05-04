@@ -145,28 +145,6 @@ body {
       .skills-container .skills-item .img:hover {
         transform: scale(1.2); }
 
-.navigation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  .navigation .logo {
-    width: 40%; }
-    .navigation .logo h1 {
-      color: #3A4145;
-      margin-left: 1rem;
-      font-size: 1.5rem; }
-      .navigation .logo h1:hover {
-        color: #078ACC; }
-  .navigation nav {
-    display: flex; }
-    .navigation nav .nav-link {
-      text-decoration: none;
-      color: #3A4145;
-      margin: 0 1rem;
-      font-size: 1.19rem; }
-      .navigation nav .nav-link:hover {
-        color: #078ACC; }
-
 .header {
   background-color: #e3f3ff;
   border-bottom: 1px solid rgba(58, 65, 69, 0.4);
@@ -203,6 +181,58 @@ body {
       animation-name: moveInRight;
       animation-duration: 0.5s;
       color: #3a4145; }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .navigation .logo {
+    width: 40%; }
+    .navigation .logo h1 {
+      color: #3A4145;
+      margin-left: 1rem;
+      font-size: 1.5rem; }
+      .navigation .logo h1:hover {
+        color: #078ACC; }
+  .navigation nav {
+    display: flex; }
+    .navigation nav .nav-link {
+      text-decoration: none;
+      color: #3A4145;
+      margin: 0 1rem;
+      font-size: 1.19rem; }
+      .navigation nav .nav-link:hover {
+        color: #078ACC; }
+
+@media screen and (min-width: 587px) {
+  .navigation .hamburger {
+    display: none; }
+  .header .mobile-nav {
+    display: none; } }
+
+@media screen and (max-width: 587px) {
+  .main-nav,
+  .main-nav a {
+    display: none; }
+  .navigation .logo {
+    width: auto; }
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    padding: 5rem 40vw 100vh 2rem;
+    margin-top: -70px;
+    margin-left: -2rem;
+    transition: all 5s ease-in; }
+  .mobile-nav a {
+    text-decoration: none;
+    color: #3A4145;
+    margin: 0 1rem;
+    font-size: 1.39rem;
+    margin-bottom: 0.5rem; }
+    .mobile-nav a:hover {
+      color: #078ACC; } }
 
 .header-projects .title-container {
   text-align: center;

@@ -1,11 +1,4 @@
 const changeHamburger = () => {
-  var x = document.getElementById("mobile-nav");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-  } else {
-    x.style.display = "none";
-  }
-
   if (
     document.getElementById("hamburger").src ==
     "https://prajjwal.ml/img/hamburger.svg"
@@ -14,6 +7,21 @@ const changeHamburger = () => {
       "https://prajjwal.ml/img/hamburger-close.svg";
   } else {
     document.getElementById("hamburger").src =
-      "http://127.0.0.1:5500/img/hamburger.svg";
+      "https://prajjwal.ml/img/hamburger.svg";
+  }
+
+  var mobNav = document.getElementById("mobile-nav");
+  if (mobNav.style.display === "flex") {
+    mobNav.style.display = "none";
+  } else if ((mobNav.style.display = "none")) {
+    mobNav.style.display = "flex";
+  }
+
+  var hamburger = document.getElementById("hamburger");
+  console.log(hamburger.style.position);
+  if (hamburger.style.position === "static") {
+    hamburger.style.display = "fixed";
+  } else if ((hamburger.style.display = "fixed")) {
+    hamburger.style.display = "static";
   }
 };

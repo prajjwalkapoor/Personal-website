@@ -92,15 +92,20 @@
   .navigation .logo {
     width: auto;
   }
+  #hamburger {
+    position: fixed;
+    right: 20px;
+  }
   .mobile-nav {
+    position: fixed;
     display: none;
     flex-direction: column;
-    position: absolute;
     background-color: white;
     padding: 5rem 40vw 100vh 2rem;
     margin-top: -70px;
     margin-left: -2rem;
-    transition: all 5s ease-in;
+    z-index: 3;
+    transition: all 0.1s ease-in;
   }
   .mobile-nav a {
     text-decoration: none;

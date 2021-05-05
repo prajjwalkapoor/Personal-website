@@ -24,8 +24,8 @@
 }
 .icon-bar .icon span {
   display: block;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   background: #fff;
   border-radius: 50%;
   position: relative;
@@ -34,8 +34,8 @@
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .icon-bar .icon span i {
-  line-height: 50px;
-  font-size: 22px;
+  line-height: 30px;
+  font-size: 18px;
 }
 .icon-bar .icon .tooltip {
   position: absolute;

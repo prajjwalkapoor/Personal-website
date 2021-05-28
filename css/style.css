@@ -217,7 +217,7 @@ body {
   .navigation .logo {
     width: auto; }
   #hamburger {
-    position: fixed;
+    position: absolute;
     right: 20px;
     transition: all 0.3s; }
     #hamburger:hover {
@@ -245,6 +245,7 @@ body {
 
 .header-projects .title-container {
   text-align: center;
+  width: 100%;
   margin-top: 2.5rem; }
   .header-projects .title-container h1 {
     font-size: 3.7rem;

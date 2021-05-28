@@ -16,14 +16,28 @@
     </div>
     <h1 class="h1-home u-center-text">COMING SOON</h1> -->
     <header class="header-projects header">
-        <div class="navigation">
-      <div class="logo"><h1 class="logo-text">Prajjwal Kapoor</h1></div>
-      <nav class="main-nav">
+          <nav class="mobile-nav" id="mobile-nav">
         <a href="/index.html" class="nav-link">Home</a
         ><a href="/projects.html" class="nav-link">Projects</a
-        ><a href="mailto:prajjwal.kapoor.mail@gmail.com" class="nav-link">Contact</a>
+        ><a href="mailto:prajjwal.kapoor.mail@gmail.com" class="nav-link"
+          >Contact</a
+        >
       </nav>
-        </div>
+      <div class="navigation">
+        <div class="logo"><h1 class="logo-text">Prajjwal Kapoor</h1></div>
+        <nav class="main-nav">
+          <a href="/index.html" class="nav-link">Home</a
+          ><a href="/projects.html" class="nav-link">Projects</a
+          ><a href="mailto:prajjwal.kapoor.mail@gmail.com" class="nav-link"
+            >Contact</a
+          >
+        </nav>
+        <img
+          id="hamburger"
+          class="hamburger"
+          src="https://prajjwal.ml/img/hamburger.svg"
+          onclick="changeHamburger()"
+        />
       <div class="title-container">
         <h1 class="h1-home">Projects</h1>
         <h3 class="h3-home">
@@ -36,11 +50,11 @@
        <div class="sec-proj">
         <div class="img-box"><img src="img/to-do-da.png" alt="" /></div>
         <div class="text-box-proj">
-          <h2 class="h2-home">Todo App with React and Firebase</h2>
+          <h2 class="h2-home">Todo App with React and Firebase Auth and DB</h2>
           <p class="para">
             This is just a simple to-do app that has a backend of firebase. I built this with  React hooks mainly  useState and useEffect.  After building this project I have learned about useEffect and useState in detail as well as firebase database and user authentication.
           </p>
-          <a href="https://to-do-da.netlify.app/" class="regular-btn"
+          <a href="https://todo-app-rosy.vercel.app/" class="regular-btn"
             >View live &#8594;</a
           >
         </div>
@@ -87,4 +101,6 @@ After building this project I have learned about all the core css features like 
       </div>
     </main>
   </body>
+    <script src="/JS/nav.js"></script>
+
 </html>

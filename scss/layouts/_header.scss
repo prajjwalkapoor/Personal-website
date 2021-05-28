@@ -94,7 +94,7 @@
     width: auto;
   }
   #hamburger {
-    position: fixed;
+    position: absolute;
     right: 20px;
     transition: all 0.3s;
     &:hover {

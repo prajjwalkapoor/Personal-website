@@ -26,3 +26,5 @@ const changeHamburger = () => {
     hamburger.style.display = "static";
   }
 };
+
+//Dark Mode

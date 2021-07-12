@@ -8,7 +8,7 @@
   "author": "prajjwal",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "node-sass": "^5.0.0"
+  "dependencies": {
+    "node-sass": "^6.0.1"
   }
 }

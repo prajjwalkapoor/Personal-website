@@ -34,7 +34,7 @@ body {
 
 .main {
   text-align: center;
-  padding: 1rem 10% 1.5rem 10%;
+  padding: 1rem 5% 1.5rem 5%;
   width: 100%; }
 
 .p {
@@ -135,7 +135,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 4rem 0; }
+  margin-top: 1rem; }
   .skills-container .skills-item {
     margin: 0.4rem; }
     .skills-container .skills-item .img {
@@ -259,7 +259,8 @@ body {
   .main-proj .sec-proj {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 0; }
+    margin: 5rem 0;
+    text-align: left; }
     .main-proj .sec-proj img {
       width: 300px;
       border: 1px solid #078ACC;
@@ -275,14 +276,15 @@ body {
     .main-proj .sec-proj p {
       color: rgba(58, 65, 69, 0.6);
       margin-bottom: 0.5rem; }
-    .main-proj .sec-proj .regular-btn {
-      text-decoration: none;
-      color: #3A4145;
-      font-size: 1.2rem;
-      transition: all 0.3s;
-      display: inline-block; }
-      .main-proj .sec-proj .regular-btn:hover {
-        color: #078ACC;
-        transform: scale(1.09); }
-    .main-proj .sec-proj .text-box-proj {
-      width: 700px; }
+  .main-proj .text-box-proj {
+    width: 700px; }
+
+.regular-btn {
+  text-decoration: none;
+  color: #3A4145;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  display: inline-block; }
+  .regular-btn:hover {
+    color: #078ACC;
+    transform: scale(1.09); }

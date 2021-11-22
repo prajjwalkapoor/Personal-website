@@ -78,7 +78,8 @@ body {
   padding: 0 8%; }
 
 .icon-bar {
-  display: inline-flex; }
+  display: inline-flex;
+  margin-top: 4rem; }
 
 .icon-bar .icon {
   margin: 0 20px;
@@ -329,3 +330,16 @@ h2 {
   .regular-btn:hover {
     color: #078ACC;
     transform: scale(1.09); }
+
+.primary-btn {
+  text-decoration: none;
+  padding: .5rem 1.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #2c2c2c;
+  color: white;
+  font-size: 18px;
+  transition: all; }
+  .primary-btn:hover {
+    transform: scale(1.1); }

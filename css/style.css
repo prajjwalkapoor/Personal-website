@@ -77,6 +77,9 @@ body {
 .p {
   padding: 0 8%; }
 
+.p-mainpage {
+  padding: 0 15%; }
+
 .icon-bar {
   display: inline-flex;
   margin-top: 4rem; }

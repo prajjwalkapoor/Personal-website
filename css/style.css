@@ -186,9 +186,12 @@ body {
       .skills-container .skills-item .img:hover {
         transform: scale(1.2); }
 
-h2 {
-  padding-top: 2rem;
+.recent-proj {
+  margin-bottom: 5rem;
   font-weight: bold; }
+
+.h2-home {
+  margin-top: -2rem; }
 
 .header {
   background-color: #e3f3ff;
@@ -300,7 +303,8 @@ h2 {
     color: rgba(58, 65, 69, 0.7); }
 
 .main-proj {
-  margin: 4%; }
+  margin: 4%;
+  padding-top: 2rem; }
   .main-proj .sec-proj {
     display: flex;
     flex-wrap: wrap;

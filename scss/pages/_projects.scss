@@ -3,23 +3,29 @@
     text-align: center;
     width: 100%;
     margin-top: 2.5rem;
+
     h1 {
       font-size: 3.7rem;
       color: $dark-grey;
     }
+
     h3 {
       font-weight: 300;
       color: rgba($dark-grey, 0.7);
     }
   }
 }
+
 .main-proj {
   margin: 4%;
+  padding-top: 2rem;
+
   .sec-proj {
     display: flex;
     flex-wrap: wrap;
     margin: 5rem 0;
     text-align: left;
+
     img {
       width: 300px;
       border: 1px solid $dark-purple;
@@ -27,24 +33,30 @@
       margin-bottom: 3%;
       transition: all 0.3s;
     }
+
     img:hover {
       transform: scale(1.1);
     }
+
     .img-box {
       margin: auto;
     }
+
     h2 {
       color: $dark-grey;
     }
+
     p {
       color: rgba($dark-grey, 0.6);
       margin-bottom: 0.5rem;
     }
   }
+
   .text-box-proj {
     width: 700px;
   }
 }
+
 .regular-btn {
   text-decoration: none;
   color: $dark-grey;
@@ -57,7 +69,8 @@
     transform: scale(1.09);
   }
 }
-.primary-btn{
+
+.primary-btn {
   text-decoration: none;
   padding: .5rem 1.5rem;
   display: inline-block;
@@ -67,7 +80,8 @@
   color: white;
   font-size: 18px;
   transition: all;
-  &:hover{
+
+  &:hover {
     transform: scale(1.1);
   }
 }
